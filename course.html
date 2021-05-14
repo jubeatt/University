@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University Website</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!---------- Header ---------->
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="img/logo.png"></a>
+		<div class="nav-links">
+			<i class="fas fa-times"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="course.html">ABOUT</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="course.html">COURSE</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fas fa-bars"></i>
+	</nav>
+	<h1>Our Courses</h1>
+</section>
+
+
+<!---------- Course ---------->
+<section class="course">
+	<h1>Courses We Offer</h1>
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+	<div class="row">
+		<div class="course-col">
+			<h3>Intermediat</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Adipisci soluta nam suscipit molestiae, incidunt alias et ipsa est doloremque, provident! Nihil eius, itaque a deserunt sunt quas assumenda repellat eaque?</p>
+		</div>
+		<div class="course-col">
+			<h3>Degree</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Adipisci soluta nam suscipit molestiae, incidunt alias et ipsa est doloremque, provident! Nihil eius, itaque a deserunt sunt quas assumenda repellat eaque?</p>
+		</div>
+		<div class="course-col">
+			<h3>Post Graduation</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Adipisci soluta nam suscipit molestiae, incidunt alias et ipsa est doloremque, provident! Nihil eius, itaque a deserunt sunt quas assumenda repellat eaque?</p>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------- Facilities ---------->
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit.</p>
+	<div class="row">
+		<div class="facilities-col">
+			<img src="img/library.png">
+			<h3>World Class Library</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aperiam obcaecati autem velit eum accusantium in, dolor voluptatibus voluptas beatae, esse, doloremque rem corrupti explicabo?</p>
+		</div>
+		<div class="facilities-col">
+			<img src="img/basketball.png">
+			<h3>Largest Play Ground</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aperiam obcaecati autem velit eum accusantium in, dolor voluptatibus voluptas beatae, esse, doloremque rem corrupti explicabo?</p>
+		</div>
+		<div class="facilities-col">
+			<img src="img/cafeteria.png">
+			<h3>Tasty and Healthy Food</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aperiam obcaecati autem velit eum accusantium in, dolor voluptatibus voluptas beatae, esse, doloremque rem corrupti explicabo?</p>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------- Footer ---------->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nam consequatur nulla similique quos et placeat necessitatibus ducimus dolor eos alias a tempora,<br> quas atque esse? Doloremque, eveniet pariatur voluptatum?</p>
+	<div class="icons">
+		<i class="fab fa-facebook-f"></i>
+		<i class="fab fa-twitter"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-linkedin-in"></i>
+	</div>
+	<p>Made with <i class="far fa-heart"></i> by Easy Tutorials</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------- Javascript for Toogle Menu ---------->
+<script>
+	var navLinks = document.querySelector(".nav-links");  // HTMLelement
+	var showBtn = document.querySelector(".fa-bars");  // HTMLelement
+	var closeBtn = document.querySelector(".fa-times");  // HTMLelement
+
+	showBtn.addEventListener("click", showMenu, false);  // binding
+	closeBtn.addEventListener("click", hideMenu, false);  // binding
+
+	function showMenu(){
+		navLinks.style.right = "0px";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
