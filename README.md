@@ -1,7 +1,10 @@
 # University
-## RWD切版練習（完整網頁）<br>
-這是參考了[Easy Tutorials](https://www.youtube.com/watch?v=oYRda7UtuhA)的教學視頻來作為切版練習的參考<br>
-在這次的練習中，對於建構一個完整的網站以及RWD的技巧有了紮實的了解，例如：<br>
+## RWD切版練習（完整網頁）
+
+這次的切版練習參考了[Easy Tutorials](https://www.youtube.com/watch?v=oYRda7UtuhA)的教學視頻
+
+在這次的練習中，對於建構一個完整的網站以及RWD的技巧有了紮實的了解，例如：
+
 - 在手機上的導覽列如何呈現
 - Flex-basis及Flex-direction的運用（透過簡單的微調，就可以呈現RWD的部分）
 - Google Font及Font Awesome的使用
